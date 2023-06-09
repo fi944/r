@@ -10,7 +10,7 @@ c = requests.session()
 bot_username = '@zmmbot'
 
 
-@sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.تجميع المليار"))
+@sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.بوت المليار"))
 async def _(event):
     if ispay[0] == "yes":
         await event.edit(t06bot)
@@ -67,7 +67,7 @@ c = requests.session()
 bot_username = '@L5hbot'
 
 
-@sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.تجميع المليون"))
+@sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.بوت المليون"))
 async def _(event):
     if ispay[0] == "yes":
         await event.edit(t06bot)
@@ -125,7 +125,7 @@ c = requests.session()
 bot_username = '@MARKTEBOT'
 
 
-@sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.تجميع الازرق"))
+@sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.بوت الازرق"))
 async def _(event):
     if ispay[0] == "yes":
         await event.edit(t06bot)
@@ -183,7 +183,7 @@ c = requests.session()
 bot_username = '@xnsex21bot'
 
 
-@sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.تجميع العرب"))
+@sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.بوت العرب"))
 async def _(event):
     if ispay[0] == "yes":
         await event.edit(t06bot)
