@@ -53,7 +53,7 @@ async def _(event):
                 msg2 = await sedthon.get_messages('@zmmbot', limit=1)
                 await msg2[0].click(text='تحقق')
                 chs += 1
-                await sedthon.send_message("chat_id", f"تم الاشتراك في {chs} قناة")
+                await sedthon.send_message(event.chat_id, f"تم الاشتراك في {chs} قناة")
             except:
                 await sedthon.send_message(event.chat_id, f"**خطأ , ممكن تبندت**")
                 break
@@ -110,7 +110,7 @@ async def _(event):
                 msg2 = await sedthon.get_messages('@L5hbot', limit=1)
                 await msg2[0].click(text='تحقق')
                 chs += 1
-                await sedthon.send_message("chat_id", f"تم الاشتراك في {chs} قناة")
+                await sedthon.send_message(event.chat_id, f"تم الاشتراك في {chs} قناة")
             except:
                 await sedthon.send_message(event.chat_id, f"**خطأ , ممكن تبندت**")
                 break
@@ -168,7 +168,7 @@ async def _(event):
                 msg2 = await sedthon.get_messages('@MARKTEBOT', limit=1)
                 await msg2[0].click(text='تحقق')
                 chs += 1
-                await sedthon.send_message("chat_id", f"تم الاشتراك في {chs} قناة")
+                await sedthon.send_message(event.chat_id, f"تم الاشتراك في {chs} قناة")
             except:
                 await sedthon.send_message(event.chat_id, f"**خطأ , ممكن تبندت**")
                 break
@@ -226,7 +226,7 @@ async def _(event):
                 msg2 = await sedthon.get_messages('@xnsex21bot', limit=1)
                 await msg2[0].click(text='تحقق')
                 chs += 1
-                await sedthon.send_message("chat_id", f"تم الاشتراك في {chs} قناة")
+                await sedthon.send_message(event.chat_id, f"تم الاشتراك في {chs} قناة")
             except:
                 await sedthon.send_message(event.chat_id, f"**خطأ , ممكن تبندت**")
                 break
