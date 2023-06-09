@@ -238,3 +238,5 @@ async def _(event):
 
     else:
         await event.edit("يجب الدفع لاستعمال هذا الامر !")
+
+        
